@@ -19,6 +19,7 @@ export class VoteComponent implements OnInit {
     this.budgetService.getAll().subscribe((data) => {
       this.budgets = data;
       console.log('dataaa', this.budgets);
+      
     });
   }
 }
